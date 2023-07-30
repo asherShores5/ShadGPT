@@ -2,6 +2,7 @@
   "name": "nextjs-tailwindcss-shadgpt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://asherShores5.github.io/ShadGPT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
