@@ -1,4 +1,4 @@
-# ShadGPT - AI-powered Chatbot
+# ShadGPT - AI-powered Chatbot [Try it Now!](https://shadgpt-d18f47707a0e.herokuapp.com/)
 ShadGPT is an interactive chatbot that allows users to have dynamic and engaging conversations with an AI language model powered by OpenAI's GPT-3.5 architecture. This project is a fully functional clone of ChatGPT, built using Next.js and Tailwind CSS, making it both efficient and visually appealing.
 ShadGPT was inspired by Professor Shad Sluiter a great teacher I had at university. Check out his youtube channel [here!](https://www.youtube.com/@shadsluiter)
 
