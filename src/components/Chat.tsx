@@ -166,7 +166,7 @@ const Chat = (props: any) => {
                     </div>
                   </div>
                   <img
-                  src="/public/images/avatar.png" // Absolute path from the root of the website
+                  src="/images/avatar.png" // Absolute path from the root of the website
                   alt="Shad Image"
                   className="mx-auto mt-4"
                 />

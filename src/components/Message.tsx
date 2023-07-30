@@ -1,7 +1,7 @@
 import { SiOpenai } from "react-icons/si";
 import { HiUser } from "react-icons/hi";
 import { TbCursorText } from "react-icons/tb";
-const avatarSvg2 = "/public/images/avatar2.svg"; 
+const avatarSvg2 = "/images/avatar2.svg"; 
 
 
 const Message = (props: any) => {
