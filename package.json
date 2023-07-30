@@ -2,13 +2,13 @@
   "name": "nextjs-tailwindcss-shadgpt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashershores5.github.io/ShadGPT/",
+  "homepage": "https://asherShores5.github.io/ShadGPT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && next export && npx gh-pages -d out"
   },
   "dependencies": {
     "@types/node": "18.15.11",
