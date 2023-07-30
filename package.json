@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && npx gh-pages -d out",
+    "postinstall": "next telemetry disable"
   },
   "dependencies": {
     "@types/node": "18.15.11",
