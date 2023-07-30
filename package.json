@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && npx gh-pages -d out"
+    "deploy": "next build && next export && npx main -d out"
   },
   "dependencies": {
     "@types/node": "18.15.11",
