@@ -2,11 +2,15 @@
 const nextConfig = {
   reactStrictMode: false,
   env: {
+    // Keep as is for server-side use only
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-    MIXPANEL_PROJECT_TOKEN: process.env.MIXPANEL_PROJECT_TOKEN,
-    APP_ENV: process.env.APP_ENV,
-    APP_NAME: process.env.APP_NAME
+
+    // Prefix with NEXT_PUBLIC_ for client-side exposure
+    NEXT_PUBLIC_MIXPANEL_PROJECT_TOKEN: process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_TOKEN,
+    NEXT_PUBLIC_APP_ENV: process.env.NEXT_PUBLIC_APP_ENV,
+    NEXT_PUBLIC_APP_NAME: process.env.NEXT_PUBLIC_APP_NAME
   }
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
+
